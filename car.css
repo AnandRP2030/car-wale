@@ -1,4 +1,66 @@
 body{
-    background-color:aliceblue;
+    
+    margin:0;
+    font-family:sans-serif;
 
+}
+
+.road-price-section{
+    position:relative;
+    top:500px;
+}
+
+/* road price section  */
+.road-price-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    height: 160px;
+    width: 402px;
+    position: relative;
+    bottom: 295px;
+    left: 780px;
+}
+
+.road-price-box>h3{
+    color: white;
+    margin-left: 28px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    font-size: 21px;
+
+}
+
+.road-price-box>input{
+    height: 35px;
+    width: 76%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 16px;
+    border-radius: 5px;
+    padding-top: 0;
+    padding-left: 35px;
+
+    border: 1px solid #0a99e6;
+}
+
+::placeholder{
+    color:rgb(125, 125, 125);
+    opacity:.8;
+}
+
+.search-icon{
+    position: relative;
+    font-size: 20px;
+    left: 38px;
+    bottom: 15px;
+    color: #a3a2a2;
+}
+
+.road-price-box>p{
+    color: white;
+    margin-left: 1.99vw;
+    font-size: 13px;
+    margin-top: 0.5vw;
 }
