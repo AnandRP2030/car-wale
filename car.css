@@ -2,3 +2,37 @@ body{
     background-color:aliceblue;
 
 }
+/* NavBar */
+
+.navbar-nav{
+    margin-left: 5rem;
+}
+.nav-item{
+    margin: 0 1.5rem;
+}
+.nav-link{
+    font-weight: bold;
+}
+.search-bar{
+    margin-left: 4rem;
+}
+.search{
+    width: 320px;
+    border-radius: 0.1;
+    padding: 10px;
+}
+.nav-icons{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+}
+.icon {
+    padding: 10px;
+    margin-left: 280px;
+}
