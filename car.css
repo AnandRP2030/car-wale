@@ -1,7 +1,10 @@
 body{
-    background-color:aliceblue;
+    
+    margin:0;
+    font-family:sans-serif;
 
 }
+
 /* NavBar */
 
 .navbar-nav{
@@ -36,3 +39,177 @@ body{
     padding: 10px;
     margin-left: 280px;
 }
+
+
+.road-price-section{
+    position:relative;
+    top:500px;
+}
+
+/* road price section  */
+.road-price-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    height: 160px;
+    width: 402px;
+    position: relative;
+    bottom: 295px;
+    left: 780px;
+}
+
+.road-price-box>h3{
+    color: white;
+    margin-left: 28px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    font-size: 21px;
+
+}
+
+.road-price-box>input{
+    height: 35px;
+    width: 76%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 16px;
+    border-radius: 5px;
+    padding-top: 0;
+    padding-left: 35px;
+
+    border: 1px solid #0a99e6;
+}
+
+::placeholder{
+    color:rgb(125, 125, 125);
+    opacity:.8;
+}
+
+.search-icon{
+    position: relative;
+    font-size: 20px;
+    left: 38px;
+    bottom: 15px;
+    color: #a3a2a2;
+}
+
+.road-price-box>p{
+    color: white;
+    margin-left: 1.99vw;
+    font-size: 13px;
+    margin-top: 0.5vw;
+}
+
+
+
+
+/**** car comparison   *****/
+
+
+.compare-cars-heading{
+    color:#484848;
+    font-size:1.2rem;
+}
+
+
+
+.compare-cars-container{
+    position: relative;
+    top: 355px;
+    left: 250px;
+
+
+}
+
+.card-containers{
+    width:1024px;
+    height:281px;
+}
+
+
+
+.card-compare-cars{
+    width: 320px;
+    height: 240px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 1px rgb(194, 194, 194) solid;
+    border-radius: 4px;
+    float:left;
+    margin-right:12px;
+}
+
+
+
+
+.card-left-section{
+    height:210px;
+    width:158px;
+    padding-left:5px;
+
+}
+
+
+.card-right-section{
+    height: 210px;
+    width: 158px;
+    float: right;
+    position: relative;
+    bottom: 209px;
+    padding-left:5px;
+}
+
+.compare-car-img{
+    height:89px;
+    width:158px;
+}
+
+
+/* compare car text section  */
+
+.compare-car-info{
+    height:210px;
+    width:158px;
+    margin-left:10px;
+}
+
+.compare-car-brand{
+    font-size: 11px;
+    color: gray;
+}
+
+.compare-car-name{
+    color: #484848;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 4px 0 5px 0; 
+}
+
+.compare-car-price{
+    color: #484848;
+    font-weight: bold;
+    font-size: 13px;
+    margin:0 0 5px 0;
+
+}
+.compare-car-onwards{
+    
+    font-size: 13px;
+    color: gray;
+}
+
+.card-compare-cars>button{
+    
+    width:284px;
+    height:33px;
+    position:relative;
+    border-color:#0288d1;
+    color:#0288d1;
+    background-color:#fff;
+    cursor:pointer;
+    font-weight:bold;
+    bottom: 228px;
+    left: 10px;
+}
+
