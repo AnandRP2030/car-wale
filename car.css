@@ -68,12 +68,12 @@ body{
 }
 
 .road-price-box>input{
-    height: 35px;
-    width: 76%;
+    height: 44px;
+    width: 357px;
     margin: auto;
     display: block;
     position: relative;
-    top: 16px;
+    top: 18px;
     border-radius: 5px;
     padding-top: 0;
     padding-left: 35px;
@@ -89,7 +89,7 @@ body{
 .search-icon{
     position: relative;
     font-size: 20px;
-    left: 38px;
+    left: 34px;
     bottom: 15px;
     color: #a3a2a2;
 }
@@ -110,14 +110,15 @@ body{
 .compare-cars-heading{
     color:#484848;
     font-size:1.2rem;
+    font-weight:700;
 }
 
 
 
 .compare-cars-container{
     position: relative;
-    top: 355px;
-    left: 250px;
+    top: 381px;
+    left: 220px;
 
 
 }
@@ -125,6 +126,7 @@ body{
 .card-containers{
     width:1024px;
     height:281px;
+    margin-top:25px;
 }
 
 
@@ -138,6 +140,7 @@ body{
     border-radius: 4px;
     float:left;
     margin-right:12px;
+    cursor:pointer;
 }
 
 
@@ -213,3 +216,162 @@ body{
     left: 10px;
 }
 
+.more-comparison-txt{
+
+    color:#0288d1;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.more-comparison-txt span{
+
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+    /******* used cars   *******/
+
+.used-cars-container{
+
+    height: 391px;
+    width: 992px;
+    position: relative;
+    margin: auto;
+    top: 444px;
+}
+
+.used-cars-container h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #484848;
+}
+
+.used-car-sub-container{
+    width:1015px;
+    height:291px;
+    margin-top:10px;
+}
+
+.card-used-car{
+    height:271px;
+    width:320px;
+    background-color:white;
+    border:1px solid #e1e1e1;
+    border-radius:4px;
+    float:left;
+    margin-right:15px;
+    cursor:pointer;
+}
+
+
+
+.card-used-car img{
+    height:179px;
+    width:318px;
+
+}
+
+.used-car-info{
+    height:90px;
+    width:318px;
+    padding-left:10px;
+    color:#484848;
+    margin-top: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.used-car-name{
+    margin-bottom:0;
+    font-size:16px;
+    font-weight: 600;
+    opacity: 0.7;
+
+}
+.used-car-price{
+    font-weight:600;
+    margin-top:5px;
+    opacity: 0.9;
+    color:#484848;
+}
+
+.used-car-price span{
+    color:#aaa;
+    font-size:12px;
+}
+
+
+    /* Car Latest Updates  */
+
+.car-update-container{
+
+    height:543px;
+    width:992px;
+    position: relative;
+    margin: auto;
+    top: 500px;
+
+}
+
+.car-update-container h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #484848;
+}
+
+
+/* car update options  */
+
+.car-update-options{
+    width:992px;
+    height:48px;
+    text-transform:uppercase;
+    margin-top:25px;
+}
+
+.car-update-options div{
+    float:left;
+    margin-right:15px;
+    cursor:pointer;
+    letter-spacing: .5px;
+    font-size: 12px;
+    font-weight: 600;
+    height:44px;
+    margin-right:20px;
+    color:#484848;
+}
+
+.car-update-options div:hover{
+
+    color:#0a99e6;
+    border-bottom:5px solid #0a99e6;
+}
+
+
+ /* latest car section  */
+
+ .latest-update-container{
+    height:362px;
+    width:1004px;
+    
+ }
+
+ .latest-car-cards{
+    width:992px;
+    height:362px;
+ }
+
+ .latest-car-cards img{
+
+    width:318px;
+    height:179px;
+
+ }
+
+ .latest-car-cards h3{
+    width:318px;
+    height:46px;
+    font-size:16px;
+    line-height:1.51;
+    background-color:aliceblue;
+ }
