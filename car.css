@@ -353,25 +353,198 @@ body{
  .latest-update-container{
     height:362px;
     width:1004px;
-    
+
  }
 
  .latest-car-cards{
-    width:992px;
-    height:362px;
+    width:320px;
+    height:358px;
+    border : 1px solid #e1e1e1;
+    border-radius:4px;
+    padding:10px;
+    float:left;
+    cursor:pointer;
+    margin-right:13px;
  }
 
  .latest-car-cards img{
 
-    width:318px;
+    width:300px;
     height:179px;
 
  }
 
+/* latest car session text area  */
+
  .latest-car-cards h3{
     width:318px;
     height:46px;
-    font-size:16px;
+    font-size:14px;
+    font-weight:bold;
+    color:#6e6b6b;
     line-height:1.51;
-    background-color:aliceblue;
+    margin-top:7px;
  }
+
+
+ .latest-car-by{
+    color: rgb(170 170 170);
+    font-size:13.5px;
+ }
+
+ .nikhil-puthran{
+    color:rgb(72 72 72);
+ }
+
+ .latest-news-time{
+    float:right;
+ }
+
+.latest-car-text{
+    color:rgb(170 170 170);
+    font-size:13px;
+    margin-bottom:5px;
+}
+
+
+.latest-read-more{
+    float:right;
+    text-shadow:.2px .2px #0a99e6;
+    text-decoration:none;
+    color:#0a99e6;
+    font-size:12px;
+
+}
+
+.latest-update-container .more-comparison-txt{
+    
+    position:relative;
+    top:20px;
+
+}
+
+
+.advertisement{
+    position:relative;
+    top:500px;
+    margin:auto;
+    width:970px;
+    height:218px;
+    cursor:pointer;
+}
+
+
+/* footer car wale  */
+
+.carwale-footer{
+
+    width:1406px;
+    height:339px;
+    background-color:#0e3a50;
+    position:relative;
+    top:600px;
+
+}
+
+.subsidiary-companies{
+    width:998px;    
+    height:79px;
+    margin:auto;
+}
+.subsidiary-companies img{
+    height: 78px;
+    width: 182px;
+}
+
+.subsidiary-underline{
+
+    height:10px;
+    color:#aaa8a8;
+    width:100%;
+    position:relative;
+    bottom:20px;
+    margin-bottom:0;
+}
+
+
+/* footer center content  */
+
+.footer-center{
+    width:992px;
+    margin:auto;
+    height:180px;
+    font-size:13px;
+}
+
+.footer-center div{
+    height:156px;
+    width:330px;
+    float:left;
+}
+
+
+.footer-left ,.footer-mid, .footer-right{
+    border-right: 1px solid #314c5a;
+    color: rgba(255, 255, 255,0.5 );
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+
+
+.footer-terms-conditions{
+
+    position: relative;
+    left: 79px;
+}
+
+.footer-advertise{
+    position:relative;
+    left:86px;
+}
+
+/* footer mid part   */
+
+.footer-mid img{
+    width: 123px;
+    height: 21px;
+    margin-bottom:10px;
+}
+
+.footer-address{
+    margin-bottom:5px;
+}
+
+/* footer right part  */
+
+.footer-right{
+    border:none;
+}
+
+.footer-right img{
+    width:100px;
+    height:33px;
+    margin-right:5px;
+    margin-bottom:20px;
+}
+
+.footer-right a{
+    
+    color:inherit;
+    font-size:18px;
+    margin-right:10px;
+    text-decoration:none;
+
+}
+
+.footer-credit {
+    text-align:center;
+    color: rgba(255, 255, 255,0.5 );
+    font-size:12px;
+}
+
+.footer-credit p a{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.5);
+}
